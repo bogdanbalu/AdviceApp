@@ -2,7 +2,7 @@ const advice = document.getElementById("advice");
 const adviceId = document.getElementById("adviceId");
 const button = document.getElementById("button");
 
-const renderAdvice = (id, text) => {
+const createAdvice = (id, text) => {
     adviceId.textContent = id;
     advice.textContent = text;
 };
@@ -23,7 +23,7 @@ const getAdvice = async () => {
     console.log(e);
   }
 
-  renderAdvice(adviceId, adviceBubble);
+  createAdvice(adviceId, adviceBubble);
   giveMeAdviceAJoke(adviceBubble);
 }
 
