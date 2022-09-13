@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #202632;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .content-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F5;
+    height: 350px;
+    width: 540px;
+    top: 220px;
+    margin: 0 auto;
+    background-color: #313A49;
+    border-radius: 20px;
+  }
+  
+  #advice {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#D9D9D9;
+  }
+  
+  #button {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    background: #53FFAB;
+    border-radius: 50%;
+    cursor: pointer;
+    bottom: 0;
+    margin-bottom: -30px;
+  }
+  
+  .image {
+    height: 17px;
+    width: 463px;
+    left: 489px;
+    top: 467px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  
+  .advice-id {
+      font-size: 1em;
+      font-weight: 400;
+      letter-spacing: 0.14em;
+      text-align: left;
+      text-transform: uppercase;
+      margin-top: 50px;
+      color: #53FFAB;
+  }
