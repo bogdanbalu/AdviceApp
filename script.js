@@ -7,7 +7,7 @@ const renderAdvice = (id, text) => {
     advice.textContent = text;
 };
 
-async function getAdvice () {
+const getAdvice = async () => {
   const url = "https://api.adviceslip.com/advice";
 
   let adviceBubble = "";
@@ -22,7 +22,7 @@ async function getAdvice () {
   } catch (e) {
     console.log(e);
   }
-  
+
   renderAdvice(adviceId, adviceBubble);
   giveMeAdviceAJoke(adviceBubble);
 }
